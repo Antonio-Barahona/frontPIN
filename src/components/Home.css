@@ -33,6 +33,7 @@
 
 .lista:hover{
     transform: scale(1.07);
+    text-decoration: none;
 }
 
 .lista2{
