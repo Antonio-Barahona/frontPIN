@@ -1,18 +1,25 @@
 .box {
     top: 0px;
     left: 0px;
-    width: 1366px;
+    max-width: 1366px;
     height: 768px;
-    background-image: url(../assets/images/slider-1.png);
     
 }
 
+.my-carrusel {
+    position: absolute;
+    top: 0;
+    width: 1366px;
+}
+
 .navbar{
+    position: absolute;
     height: 96px;
-    display: flex;
-    justify-content: space-between;
     border-bottom: #E0752F solid 2px;
-    width: auto;
+    width: 1366px;
+    z-index: 999;
+    background: none;
+    
 }
 
 .items{
@@ -46,13 +53,17 @@
     display: flex;
     width: 128,5px;
     height: 30px;
-    padding-left: 100px;
-    margin-top: 33px;
+    padding-left: 85px;
 }
 
+
+
+ 
 .margen{
-    margin-top: 180px;
+    position: absolute;
+    margin-top: 250px;
     margin-left: 100px;
+    z-index: 999;
 }
 .texto{
     text-align: center;
@@ -65,11 +76,14 @@
     left: 101px;
     width: 554px;
     height: 115px;
-    font-size: 48px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-48) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0-67);
+    color: var(--unnamed-color-ffffff);
     text-align: left;
+    font: normal normal 600 48px/48px Poppins;
+    letter-spacing: 0.67px;
     color: #FFFFFF;
     opacity: 1;
-    font-family: 'Roboto';
     
 
 }
@@ -87,11 +101,15 @@
     left: 101px;
     width: 343px;
     height: 42px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
     text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
     color: #FFFFFF;
     opacity: 1;
     font-size: 16px;
-    font-family: 'Roboto';
 }
 .border{
     border-color: bisque 2px;
@@ -108,10 +126,10 @@
     opacity: 1;
     font-size: 16px;
     position: relative;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .btnread:hover{
     transform: scale(1.07);
     
-}
+} 
