@@ -21,6 +21,7 @@
 
 }
 .bloque5{
+    
     margin-top: 75px;
     width: 471px;
     height: 345px;
@@ -36,11 +37,14 @@
     color: #343434;
     font-size: 39px;
 }
-.ha5>spam{
-    
-    width: 386px;
-    height: 55px;
-    text-align: left;
+.ha5>span{
+    opacity: 1;
     color: #E0752F;
-    margin-top: 0px;
+    font-size: 39px;
+   
+}
+
+.btnread {
+    
+    
 }
