@@ -1,0 +1,25 @@
+.foter{
+    display: flex;
+    width: 1366px;
+    height: 96px;
+    opacity: 1;
+    background-color: #343434;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+.fot{
+    width: 195px;
+    height: 21px;
+    margin-top:20px;
+    margin-left: 101px;
+    text-align: left;
+    color: #DCE1DA;
+    opacity: 1;
+}
+.logfoter{
+    margin-top:35px;
+    width: 86px;
+    height: 20px;
+    margin-left: 900px;
+    opacity: 1;
+}
