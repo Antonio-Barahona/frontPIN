@@ -1,0 +1,47 @@
+.border{
+    display: flex;
+    border-color: grey 2px;
+    width: 1366px;
+    height: 672px;
+}
+.element{ 
+    padding-top: 100px;
+    left: 0px;
+    width: 32px;
+    height: 384px;
+    opacity: 1;
+    margin-top: 144px;
+    background-color: #E0752F;
+    opacity: 1;
+    
+}
+.ha2{
+
+    width: 402px;
+    height: 100px;
+    text-align: left;
+    opacity: 1;
+    margin-left: 267px;
+    color: #343434;
+    font-size: 39px;
+}
+.ha21{
+    
+    color: #E0752F;
+    font-size: 39px;
+    
+
+}
+.texto1{
+    left: 299px;
+    width: 768px;
+    height: 197px;
+    text-align: left;
+    color: #343434;
+    margin-left: 267px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    text-align: justify;
+    letter-spacing: 0.3px;
+}
