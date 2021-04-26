@@ -1,5 +1,5 @@
 import React from 'react'
-import './Contact'
+import './Contact.css'
 
 
 const Contact = () => {
@@ -7,41 +7,43 @@ const Contact = () => {
         
         <section id="contacto" className="lineargradient">
             
-        <div className='contenedor5'>
-            <form>
-                <div className='cabecera5'>
-                    <h2 className='ha5'>Get in touch</h2>
-                    <h2 className='ha51'>We are hiring!</h2>
+            <div className='contenedor5'>
+                <form>
+                    <div className='cabecera5'>
+                        <h2 className='ha5'>Get in touch<br></br><span>We are hiring!</span></h2>  
+                    </div>
 
-                </div>
-                <div className='bloque5'>
-                    
-                <label>
-                    Name:
-                    <input type="text" name="name" />
-                 </label>
-                    
-                
-                 <label>
-                    Email:
-                    <input type="email" name="email" />
-                 </label>
-                
-                 <label>
-                    Phone:
-                    <input type="phone" name="phone" />
-                 </label>
+                    <div className='bloque5'>
+                        
+                        <div className="">
+                                <div>
+                                    <label for="name">Name</label>
+                                    <input type="text" className="form-control"  id="name" />
 
-                 <label>
-                    Message:
-                    <input type="textarea" name="email" />
-                 </label>
+                                </div>
+                                
+                                
+                                <div className="">
+                                    <label for="email">Email</label>
+                                    <input type="email" className="form-control"  id="mail" />
+                                </div>
+                                
+                                <div className="">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" className="form-control"  id="tel" />
+                                </div>
+                                
+                                <div className="">
+                                    <label for="message">Message</label>
+                                    <textarea type="tel" className="form-control"  id="message"></textarea>
+                                </div>
+                        
+                            <button type='submit' className="btnread">Send</button>
+                        </div>
+                    </div>           
+                </form>
                 
-                <input type="submit" value="Enviar" />
-                </div>           
-            </form>
-            
-        </div>
+            </div>
 
         </section>
 
